@@ -44,8 +44,8 @@ const sayNameFunc = obj => {
 
 // Principle 3
 // code example for New Binding
-function LamndaPerson(greeter) {
-    this.greeting = 'Hello ';
+function LambdaPerson(greeter) {
+    this.greeting = 'Hi ';
     this.greeter = greeter;
     this.speak = function() {
       console.log(this.greeting + this.greeter);
@@ -57,7 +57,7 @@ function LamndaPerson(greeter) {
   const tg = new LamndaPerson('Rami');
   
    rami.speak();
-  tg.speak();
+   tg.speak();
 
 
 // Principle 4
